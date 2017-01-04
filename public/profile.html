@@ -1,0 +1,11 @@
+<h1>Hello from the profile.html page</h1>
+
+<h2>{{ profile._id }}</h2>
+<img ng-src="{{ profile.avatar_url }}" alt="">
+<div class="followButtonDiv">
+  <button ng-click="follow()" type="button" name="button">Follow</button>
+</div>
+<hr>
+<div class="">
+  <p ng-repeat="tweet in tweets | orderBy:'-date'">{{ tweet.text }}</p>
+</div>

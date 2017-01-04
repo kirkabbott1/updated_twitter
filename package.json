@@ -1,0 +1,29 @@
+{
+  "name": "twitter_clone",
+  "version": "1.0.0",
+  "description": "Twitter clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcortes0309/twitter_clone.git"
+  },
+  "author": "Kirk Abbott and Juan Cortes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcortes0309/twitter_clone/issues"
+  },
+  "homepage": "https://github.com/jcortes0309/twitter_clone#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.1",
+    "bcrypt-promise": "^2.0.0",
+    "bluebird": "^3.4.6",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "lodash": "^4.17.2",
+    "mongoose": "^4.7.2",
+    "uuid": "^3.0.1"
+  }
+}

@@ -1,0 +1,8 @@
+<h1>Hi from the world.html</h1>
+<br>
+<p ng-repeat="tweet in allTweets | orderBy:'-date'">
+  <a ui-sref="profile({username: tweet.userID})">
+    <img ng-src="{{ tweet.avatar_url }}" alt="" width="100px">
+  </a>
+  {{ tweet.userID }} -  {{ tweet.text }}
+</p>
